@@ -1,0 +1,6 @@
+name: astrbot_plugin_reply_guard
+display_name: 回复净化器
+desc: "全局清洗模型偶发输出的英文/中文通用代理占位废话，避免直接发到聊天里。"
+version: v0.1.0
+author: taolicx
+repo: "https://github.com/taolicx/astrbot-plugin-reply-guard"
