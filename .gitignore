@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+CODEX_CONTEXT.txt
+*.codex.txt
