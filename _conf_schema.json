@@ -1,0 +1,27 @@
+{
+  "enabled": {
+    "description": "是否启用全局回复净化",
+    "type": "bool",
+    "default": true
+  },
+  "only_model_result": {
+    "description": "是否只处理模型主回复，避免影响普通插件命令回显",
+    "type": "bool",
+    "default": true
+  },
+  "replacement_text": {
+    "description": "当整句命中占位废话时，替换成的提示文本",
+    "type": "string",
+    "default": "刚刚模型回复异常，请把上一句再发一次。"
+  },
+  "strip_prefixed_reply": {
+    "description": "如果是“占位废话 + 正文”，是否尽量剥离前缀废话，仅保留后面的正文",
+    "type": "bool",
+    "default": true
+  },
+  "debug_log_hits": {
+    "description": "命中占位废话时是否打印调试日志",
+    "type": "bool",
+    "default": true
+  }
+}
